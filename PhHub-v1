@@ -1,0 +1,107 @@
+local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/xHeptc/Kavo-UI-Library/main/source.lua"))()
+
+local Window = Library.CreateLib("PhHub", "BloodTheme")
+
+-- Main
+
+local Main = Window:NewTab("Main")
+
+local MainSection = Main:NewSection("Main")
+
+MainSection:NewButton("speed", "makes you flash", function()
+
+    loadstring(game:HttpGet(('https://raw.githubusercontent.com/PrototypeRBLX/Speed-Script/main/README.md'),true))()
+
+end)
+
+MainSection:NewButton("Fly Gui", "Makes you see jesusðŸ˜±", function()
+
+    loadstring("\108\111\97\100\115\116\114\105\110\103\40\103\97\109\101\58\72\116\116\112\71\101\116\40\40\39\104\116\116\112\115\58\47\47\103\105\115\116\46\103\105\116\104\117\98\117\115\101\114\99\111\110\116\101\110\116\46\99\111\109\47\109\101\111\122\111\110\101\89\84\47\98\102\48\51\55\100\102\102\57\102\48\97\55\48\48\49\55\51\48\52\100\100\100\54\55\102\100\99\100\51\55\48\47\114\97\119\47\101\49\52\101\55\52\102\52\50\53\98\48\54\48\100\102\53\50\51\51\52\51\99\102\51\48\98\55\56\55\48\55\52\101\98\51\99\53\100\50\47\97\114\99\101\117\115\37\50\53\50\48\120\37\50\53\50\48\102\108\121\37\50\53\50\48\50\37\50\53\50\48\111\98\102\108\117\99\97\116\111\114\39\41\44\116\114\117\101\41\41\40\41\10\10")()
+
+end)
+
+				
+
+MainSection:NewButton("Chat bypasser", "good script", function()
+
+    loadstring(game:HttpGet(('https://raw.githubusercontent.com/vqmpjay/chatbypasser/main/chatbypasserv1'),true))()
+
+end)
+
+MainSection:NewButton("Infinite Yield", "Commands", function()
+
+    loadstring(game:HttpGet(('https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source'),true))()
+
+end)
+
+--LOCAL PLAYER
+
+local Player = Window:NewTab("Player")
+
+local PlayerSection = Player:NewSection("Player")
+
+PlayerSection:NewSlider("Walkspeed", "SPEED GRAHH", 500, 16, function(s) -- 500 (MaxValue) | 0 (MinValue)
+
+    game.Players.LocalPlayer.Character.Humanoid.WalkSpeed = s
+
+end)
+
+PlayerSection:NewSlider("Jump-power", "Jump", 500, 16, function(s) -- 500 (MaxValue) | 0 (MinValue)
+
+    game.Players.LocalPlayer.Character.Humanoid.WalkSpeed = s
+
+end)
+
+MainSection:NewButton("Swag Mode", "Da hood script", function()
+
+loadstring(game:HttpGet('https://raw.githubusercontent.com/lerkermer/lua-projects/master/SwagModeV002'))()
+
+end)
+
+--PetSim
+
+local PetSim = Window:NewTab("PetSim")
+
+local PetSimSection = PetSim:NewSection("PetSim")
+
+PetSimSection:NewButton("PSX rafa", "AutoFarm", function()
+
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/Rafacasari/roblox-scripts/main/psx.lua"))()
+
+end)
+
+--BloxFruit
+
+local BloxFruit = Window:NewTab("BloxFruit")
+
+local BloxFruitSection = BloxFruit:NewSection("BloxFruit")
+
+BloxFruitSection:NewButton("PadoHub", "AutoFarm", function()
+
+    loadstring(game:HttpGet('https://raw.githubusercontent.com/REWzaKunGz1/premium/main/PadoHub'))()
+
+end)
+
+BloxFruitSection:NewButton("PlayBackX-Hub", "AutoFarm", function()
+
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/NeaPchX2/Playback-X-HUB/main/PlaybackXHub.lua"))()
+
+end)
+
+BloxFruitSection:NewButton("Sazx", "Auto Farm", function()
+
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/MkoriKunG/Sazxhubnew/main/Protected.lua_4.txt"))()
+
+end)
+
+--Animation
+
+local Animation = Window:NewTab("Animation")
+
+local AnimationSection = Animation:NewSection("Animation")
+
+AnimationSection:NewButton("Animation Changer", "Requested By Ezequiel", function()
+
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/GamingScripter/Animation-Hub/main/Animation%20Gui", true))()
+
+end)
